@@ -1,0 +1,20 @@
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar {
+    /*border-bottom: #e0d44e 3px solid;*/
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 48px;
+    text-align: center;
+}
