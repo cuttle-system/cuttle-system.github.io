@@ -26,18 +26,23 @@ github_username: cuttle-system
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 #theme: minima
 #plugins:
+#  - include-plain
 #  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#exclude: [deps/cuttle-translator/README.md]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .idea/
+  - deps/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

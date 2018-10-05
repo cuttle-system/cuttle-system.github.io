@@ -1,0 +1,18 @@
+[submodule "deps/cuttle-parser"]
+	path = deps/cuttle-parser
+	url = https://github.com/cuttle-system/cuttle-parser
+[submodule "deps/cuttle-translator"]
+	path = deps/cuttle-translator
+	url = https://github.com/cuttle-system/cuttle-translator
+[submodule "deps/cuttle-generator"]
+	path = deps/cuttle-generator
+	url = https://github.com/cuttle-system/cuttle-generator
+[submodule "deps/cuttle-fileui"]
+	path = deps/cuttle-fileui
+	url = https://github.com/cuttle-system/cuttle-fileui
+[submodule "deps/cuttle-vm"]
+	path = deps/cuttle-vm
+	url = https://github.com/cuttle-system/cuttle-vm
+[submodule "deps/cuttle-lang"]
+	path = deps/cuttle-lang
+	url = https://github.com/cuttle-system/cuttle-lang

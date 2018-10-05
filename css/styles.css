@@ -18,3 +18,11 @@
     font-size: 48px;
     text-align: center;
 }
+
+.navigation-header:hover {
+    text-decoration: none;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+}
