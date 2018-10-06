@@ -22,7 +22,7 @@
             <img src="{{ '/img/logo.svg' | relative_url }}" width="60" height="60">
             {{ site.title }}
         </a>
-        <button class="navbar-toggler ml-auto width-fit" type="button"
+        <button class="navbar-toggler ml-auto width-fit" id="_navigation-toggler" type="button"
                 data-toggle="collapse"
                 data-target="#_navigation-container"
                 aria-controls="_navigation-container"
@@ -44,6 +44,12 @@
             </ul>
         </div>
     </nav>
+
+    <style>
+        #_navigation-toggler {
+            display: none;
+        }
+    </style>
 
     {{ content }}
 
