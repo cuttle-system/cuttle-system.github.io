@@ -1,10 +1,8 @@
 ---
-layout: application
+layout: documentation
 title: Documentation
 permalink: /documentation/
 ---
-
-{% include navigation.html %}
 
 {% include_relative deps/cuttle-fileui/README.md %}
 {% include_relative deps/cuttle-translator/README.md %}

@@ -1,0 +1,19 @@
+---
+layout: application
+---
+
+<div id="_navigation" data-spy="scroll">
+    <div class="container-fluid">
+        <div class="row flex-md-nowrap">
+            <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+                <nav id="_navigation-container" class="nav nav-pills flex-column">
+                </nav>
+            </div>
+            <div class="col content-container" data-spy="scroll" data-target="#_navigation-container" data-offset="0">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

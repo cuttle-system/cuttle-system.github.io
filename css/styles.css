@@ -26,3 +26,42 @@
 .navigation-link:hover {
     text-decoration: none;
 }
+
+#_navigation .content-container {
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.btn-primary {
+    background-color: #aba241;
+    border-color: #aba100;
+}
+
+.btn-primary:hover {
+    background-color: #766d3b;
+    border-color: #aba100;
+}
+
+#_navigation a {
+    color: #8a832e;
+    margin: 5px;
+}
+
+#_navigation a:hover {
+    color: #59522c;
+}
+
+#_navigation a.active {
+    background-color: #aba241;
+    color: #fff;
+}
+
+#_navigation a.active:hover {
+    background-color: #90873e;
+    color: #fff;
+}
+
+#_navigation nav {
+    margin-left: 10px;
+}
