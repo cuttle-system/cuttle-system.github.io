@@ -28,9 +28,9 @@
 }
 
 #_navigation .content-container {
-    max-height: 90vh;
-    overflow-y: auto;
-    position: relative;
+    /*max-height: 90vh;*/
+    /*overflow-y: auto;*/
+    /*position: relative;*/
 }
 
 .btn-primary {
@@ -62,6 +62,15 @@
     color: #fff;
 }
 
-#_navigation nav {
+#_navigation-container nav {
     margin-left: 10px;
+}
+
+.bd-sidebar {
+    position: sticky;
+    -ms-flex-order: 0;
+    order: 0;
+    height: 89vh;
+    top: 5.5rem;
+    z-index: 1000;
 }
