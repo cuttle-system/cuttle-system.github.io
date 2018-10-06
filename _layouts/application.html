@@ -15,14 +15,24 @@
 
     <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
 </head>
-<body data-spy="scroll" data-target="#_navigation-container">
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-white">
+<body data-spy="scroll" data-target="#_navigation-container" data-offset="100">
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white">
         <a class="navbar-brand" href="{{ '/' | relative_url }}">
             <img src="{{ '/img/logo.svg' | relative_url }}" width="60" height="60">
             {{ site.title }}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler ml-auto width-fit" type="button"
+                data-toggle="collapse"
+                data-target="#_navigation-container"
+                aria-controls="_navigation-container"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-book"></span>
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">

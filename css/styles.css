@@ -46,6 +46,9 @@
 #_navigation a {
     color: #8a832e;
     margin: 5px;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
 }
 
 #_navigation a:hover {
@@ -53,13 +56,14 @@
 }
 
 #_navigation a.active {
-    background-color: #aba241;
-    color: #fff;
+    background-color: transparent;
+    border-bottom-color: #aba241;
+    /*color: #fff;*/
 }
 
 #_navigation a.active:hover {
-    background-color: #90873e;
-    color: #fff;
+    border-bottom-color: #90873e;
+    /*color: #fff;*/
 }
 
 #_navigation-container nav {
@@ -70,7 +74,17 @@
     position: sticky;
     -ms-flex-order: 0;
     order: 0;
-    height: 89vh;
-    top: 5.5rem;
+    top: 5.40rem;
     z-index: 1000;
 }
+
+@media (min-width: 768px) {
+    .bd-sidebar {
+        height: 88vh;
+    }
+
+    .bd-sidebar .collapse {
+        display: block;
+    }
+}
+

@@ -24,7 +24,7 @@ function construct_children(headings, i, parent) {
 }
 
 
-const navigation = document.querySelector("nav#_navigation-container");
+const navigation = document.querySelector("#_navigation-container");
 
 if (navigation != null) {
     const headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
