@@ -47,6 +47,8 @@
     position: sticky;
     -ms-flex-order: 0;
     order: 0;
+    max-height: 88vh;
+    overflow-y: auto;
     top: 5.40rem;
     z-index: 1000;
 }
