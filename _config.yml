@@ -26,7 +26,6 @@ github_username: cuttle-system
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 #theme: minima
 #plugins:
 #  - include-plain
