@@ -16,8 +16,8 @@
 
     <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
 </head>
-<body data-spy="scroll" data-target="#_navigation-container" data-offset="100">
-    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white">
+<body data-spy="scroll" data-target="#_navigation-container">
+    <nav id="navbar" class="navbar sticky-top navbar-expand-md navbar-light bg-white">
         <a class="navbar-brand" href="{{ '/' | relative_url }}">
             <img src="{{ '/img/logo.svg' | relative_url }}" width="60" height="60">
             {{ site.title }}
