@@ -31,6 +31,8 @@ if (navigation != null) {
     let navbarHeight = document.querySelector('#navbar').clientHeight - 1;
     headings.forEach(heading => {
         heading.innerHTML +=
+            '<a class="inheader-link" href="#map-' + heading.id + '">#</span>';
+        heading.innerHTML +=
             '<em id="map-' + heading.id + '"' +
             '   class="navigation-header-map"' +
             '   style="position: relative; top: -' + navbarHeight + 'px;"' +
