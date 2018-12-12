@@ -37,5 +37,17 @@ if (navigation != null) {
             '   class="navigation-header-map"' +
             '   style="position: relative; top: -' + navbarHeight + 'px;"' +
             '>map</em>';
+
+        heading.addEventListener('mouseover', (event) => {
+            if (heading.querySelectorAll('.navigation-header-map:hover').length > 0) {
+                heading.querySelector('.inheader-link').classList.remove('display');
+            } else {
+                heading.querySelector('.inheader-link').classList.add('display');
+            }
+        });
+
+        heading.addEventListener('mouseleave', (event) => {
+            heading.querySelector('.inheader-link').classList.remove('display');
+        });
     });
 }
